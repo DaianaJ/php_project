@@ -9,6 +9,7 @@ The structure of the project:
     - css, imges, fonts - auxiliary folders, in which static content is kept.
     
 Functionalities:
+
     - register:
         For this function I created a form with the next fields: email, password and password retyping. All
       fields are retrieved and send to the php backend through jquery and ajax(I chose them because they are fast
