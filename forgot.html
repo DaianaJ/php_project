@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Forgot password</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+<div id="header">
+  <div>
+    <div id="navigation">
+      <div>
+        <ul>
+          <li class="current"><a href="login.html" id="li_login_login"> login </a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="content">
+  <div>
+    <h3> Please enter the email address associated with your account. If the address is a valid one, you will receive an email with the new password. It is recommended to change it after the first login.</h3>
+    <form id="req_form">
+      <table>
+        <tr>
+          <td><label class="email_register" for="email_forgot">Email:</label></td>
+          <td><input type="email" maxlength="30" id="email_forgot"></td>
+        </tr>
+        <tr>
+            <td><button type="submit" onclick="sendEmail()"> Send</button></td>
+        </tr>
+        <tr>
+            <p id="ret_message"></p>
+        </tr>
+      </table>
+    </form>
+  </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="./js/forgot.js"></script>
+</body>
+</html>

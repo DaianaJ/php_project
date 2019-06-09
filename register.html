@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Register</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<div id="header">
+  <div>
+    <div id="navigation">
+      <div>
+        <ul>
+          <li class="current"><a href="login.html">login</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="content">
+  <div>
+    <h3>Register</h3>
+    <form id="register_form">
+      <table>
+        <tr>
+          <td><label class="email_register" for="email_register">Email:</label></td>
+          <td><input type="email" maxlength="30" id="email_register"></td>
+         
+        </tr>
+        <tr>
+          <td><label class="password" for="password">Password:</label></td>
+          <td><input type="password" maxlength="10" id="password"></td>
+                   
+        </tr>
+        
+        <tr>
+            <td><label class="password-retype" for="password-retype">Retype:</label></td>
+            <td><input type="password" maxlength="10" id="password-retype"></td>
+        </tr>
+        
+        <tr>
+            <td><button type="submit" onclick="register()"> Register </button></td>
+            <td></td>
+        </tr>
+        
+        <tr>
+        <p id="retype"></p>
+        </tr>
+      </table>
+    </form>
+  </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="./js/register.js"></script>
+</body>
+</html>

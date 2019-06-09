@@ -1,0 +1,170 @@
+@font-face {
+    font-family: "Oswald-Bold";
+    src: url("../fonts/Oswald-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Oswald-ExtraLight";
+    src: url("../fonts/Oswald-ExtraLight.ttf");
+}
+
+@font-face {
+    font-family: "Oswald-Light";
+    src: url("../fonts/Oswald-Light.ttf");
+}
+
+body {
+	background: url(../images/bg-header.gif) repeat center;
+	color: #80662b;
+	font-family: Oswald-Bold;
+	font-size: 14px;
+	margin: 0;
+	min-width: 950px;
+	padding: 0;
+}
+a {
+	outline: none;
+}
+
+#header {
+	background: url(../images/bg-header.gif) repeat-x top center;
+	height: 106px;
+	overflow: hidden;
+	width: 100%;
+}
+#header div {
+	margin: 0 auto;
+	overflow: hidden;
+	width: 950px;
+}
+
+#header div div#navigation {
+	font-family: Oswald-Bold;
+	height: auto;
+	line-height: 50px;
+	margin-top: 20px;
+	text-transform: lowercase;
+	width: 614px;
+}
+#header div div#navigation div {
+	padding-left: 4px;
+	min-height: 63px;
+	width: auto;
+}
+#header div div#navigation div ul {
+	clear: both;
+	float: left;
+	min-height: 63px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	min-width: 600px;
+}
+#header div div#navigation div ul li:first-child {
+	background: none;
+}
+#header div div#navigation div ul li {
+	float: left;
+	padding: 0 30px;
+}
+#header div div#navigation div ul li a {
+	color: #b99b5f;
+	text-decoration: none;
+	text-shadow: 1px 1px 0 #efd9c4;
+}
+#header div div#navigation div ul li.current a, #header div div#navigation div ul li a:hover {
+	color: #2e5306;
+	text-shadow: 1px 1px 0 #f2fcd9;
+}
+#content {
+	background: url(../images/bg-headliner.gif) repeat top center;
+	height: auto;
+	width: 100%;
+    overflow:auto;
+}
+#content div#section {
+	min-height: 365px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 35px 0 0;
+	position: relative;
+	width: 950px;
+}
+#content div#section div {
+	background: none;
+	float: left;
+	margin-left: 0;
+	padding-top: 0;
+	width: 286px;
+}
+
+#content div {
+	margin: 0 auto;
+	padding: 0 0 40px;
+	width: 950px;
+}
+
+
+#content div form {
+	margin: 0 auto;
+	width: auto;
+}
+
+#content div form table tr td input#name,
+#content div form table tr td input#email,
+#content div form table tr td input#email_register,
+#content div form table tr td input#email_forgot,
+#content div form table tr td input#password,
+#content div form table tr td input#password-retype {
+	background: silver;
+	border: 0;
+	color: black;
+	font-family: Arial;
+	font-size: 12px;
+	height: 30px;
+	margin-left: 20px;
+	padding: 0 5px;
+	width: auto;
+}
+
+#content div form table tr td input#date, #content div form table tr td input#birth-date {
+    background: silver;
+	margin-left: 20px;
+	padding: 0 5px;
+}
+
+
+
+
+#content div form table td {
+	padding: 10px 0
+}
+
+#content div table tr td label span, #content div form div fieldset label span {
+	color: #674d1c;
+	font-family: Arial;
+	font-size: 12px;
+}
+
+#content div table tr td label.email  {
+	font-weight: bold;
+	margin-left: 115px;
+	padding-top: 5px;
+	vertical-align: sub;
+}
+
+
+#content div form div div {
+	background: none;
+	float: none;
+	height: auto;
+	margin-left: 0;
+	margin-top: 33px;
+	width: auto;
+}
+
+
+
+
+
+
